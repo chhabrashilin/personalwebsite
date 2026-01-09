@@ -3,8 +3,8 @@ import Section from "@/components/Section";
 import { SITE_CONFIG } from "@/lib/constants";
 
 export const metadata = {
-  title: "Contact - Your Name",
-  description: "Get in touch with me for collaboration, opportunities, or questions.",
+  title: "Contact - Shilin Chhabra",
+  description: "Get in touch for internship opportunities, research collaborations, or technical discussions.",
 };
 
 export default function ContactPage() {
@@ -15,8 +15,9 @@ export default function ContactPage() {
           <div className="space-y-4 text-center">
             <h1 className="text-3xl md:text-4xl font-bold">Get In Touch</h1>
             <p className="text-lg text-foreground/70 max-w-2xl mx-auto">
-              I&apos;m always open to discussing new projects, creative ideas, or opportunities to be
-              part of your vision. Feel free to reach out through any of the channels below.
+              I&apos;m actively seeking internship opportunities and full-time roles starting
+              December 2026. Always open to discussing research collaborations, interesting
+              technical challenges, or new projects. Feel free to reach out!
             </p>
           </div>
 
@@ -89,8 +90,8 @@ export default function ContactPage() {
                 </div>
                 <div>
                   <h2 className="font-semibold mb-1">Location</h2>
-                  <p className="text-sm text-foreground/60 mb-2">Open to remote opportunities</p>
-                  <p className="text-sm text-foreground/80">San Francisco Bay Area</p>
+                  <p className="text-sm text-foreground/60 mb-2">Open to remote and relocation</p>
+                  <p className="text-sm text-foreground/80">Madison, WI</p>
                 </div>
               </div>
             </div>

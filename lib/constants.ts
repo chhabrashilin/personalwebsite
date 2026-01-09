@@ -1,13 +1,13 @@
 export const SITE_CONFIG = {
-  name: "Your Name",
-  title: "Your Name - Computer Science Student & Developer",
-  description: "Computer Science student building scalable systems and applied AI.",
-  url: "https://yourname.com",
+  name: "Shilin Chhabra",
+  title: "Shilin Chhabra - Computer Science & Data Science Student",
+  description: "Computer Science and Data Science student at UW-Madison building scalable cloud systems and ML infrastructure.",
+  url: "https://shilinchhabra.com",
   author: {
-    name: "Your Name",
-    email: "your.email@example.com",
-    github: "https://github.com/yourusername",
-    linkedin: "https://linkedin.com/in/yourusername",
+    name: "Shilin Chhabra",
+    email: "chhabra7@wisc.edu",
+    github: "https://github.com/shilinchhabra",
+    linkedin: "https://linkedin.com/in/shilinchhabra",
   },
   nav: [
     { label: "Home", href: "/" },
@@ -21,22 +21,22 @@ export const SITE_CONFIG = {
 export const HIGHLIGHTS = [
   {
     icon: "trophy",
-    title: "Hackathon Winner",
-    description: "Won multiple hackathons building innovative solutions.",
+    title: "NCCA National Champion",
+    description: "Captain & President of Badger Cricket Club, 2024 National Champions.",
   },
   {
     icon: "microscope",
-    title: "Research Experience",
-    description: "Contributing to cutting-edge research in AI and systems.",
+    title: "Research at NSF NCAR",
+    description: "Software Engineering Research Intern building cloud-native HPC solutions.",
   },
   {
     icon: "briefcase",
-    title: "Industry Experience",
-    description: "Internships at leading tech companies.",
+    title: "Production Systems",
+    description: "Deployed Kubernetes platforms supporting 150+ researchers at NCAR.",
   },
   {
     icon: "users",
-    title: "Leadership",
-    description: "Leading technical teams and mentoring peers.",
+    title: "House Fellow Leadership",
+    description: "Core Values House Fellow of the Year, mentoring 60+ residents.",
   },
 ];

@@ -2,6 +2,8 @@ import type { Metadata } from "next";
 import { Inter, JetBrains_Mono } from "next/font/google";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
+import CustomCursor from "@/components/ui/CustomCursor";
+import SmoothScroll from "@/components/animations/SmoothScroll";
 import { SITE_CONFIG } from "@/lib/constants";
 import "@/styles/globals.css";
 
@@ -55,10 +57,13 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className={`${inter.variable} ${jetbrainsMono.variable}`}>
-      <body className="min-h-screen flex flex-col antialiased">
-        <Header />
-        <main className="flex-1 w-full">{children}</main>
-        <Footer />
+      <body className="min-h-screen flex flex-col antialiased overflow-x-hidden">
+        <CustomCursor />
+        <SmoothScroll>
+          <Header />
+          <main className="flex-1 w-full">{children}</main>
+          <Footer />
+        </SmoothScroll>
       </body>
     </html>
   );

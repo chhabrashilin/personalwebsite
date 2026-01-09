@@ -33,10 +33,10 @@ export default function ResumePage() {
             <h2 className="font-semibold mb-3">Key Focus Areas</h2>
             <div className="flex flex-wrap gap-2">
               {[
-                "Distributed Systems",
-                "Machine Learning Infrastructure",
-                "Backend Engineering",
-                "Cloud Architecture",
+                "Cloud Infrastructure & Kubernetes",
+                "Big Data Systems",
+                "Machine Learning & Data Science",
+                "Full-Stack Development",
               ].map((area) => (
                 <span
                   key={area}
